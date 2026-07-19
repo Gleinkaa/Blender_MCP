@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./scenes/**)",
+      "Edit(./scenes/**)",
+      "Read(./**/*.blend)",
+      "Read(./**/*.blend1)",
+      "Edit(./**/*.blend)",
+      "Read(./**/*.png)",
+      "Read(./**/*.jpg)",
+      "Read(./**/*.jpeg)",
+      "Read(./**/*.tif)",
+      "Read(./**/*.tiff)",
+      "Read(./**/*.exr)",
+      "Read(./**/*.hdr)",
+      "Read(./**/*.wav)",
+      "Read(./**/*.mp3)",
+      "Read(./**/*.flac)",
+      "Read(./**/*.mp4)",
+      "Read(./**/*.mov)",
+      "Read(./**/*.mkv)",
+      "Read(./renders/**)",
+      "Read(./**/*.env*)",
+      "Read(./**/*.pem)",
+      "Read(./**/*.key)"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

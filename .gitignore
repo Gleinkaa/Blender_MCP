@@ -1,0 +1,20 @@
+# Finished renders: keep them on your disk, but don't clutter the project history.
+renders/*
+!renders/.gitkeep
+
+# Blender autosave / temp junk
+*.blend@
+*.blend2
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets — never commit these
+.env
+*.env
+*.key
+*.pem
